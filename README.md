@@ -36,7 +36,7 @@ In order for the application to start successfully, **JSON and Node Media Server
 ## Create A Stream Channel
 Once the application has rendered, you must login using **Gooogle Sign In** button on the top-right of the page header. Enter in your GMAIL credentials and wait for Google to authenticate your login. When Successful, there will be a **Create Stream** button now visible in the UI. 
 
-# How To Stream Video To Your Channel
+## How To Stream Video To Your Channel
 To stream video, you can use download [OBS](https://obsproject.com/) and update your **Stream** settings to the following:
 
 - Server - rtmp://localhost/live 
