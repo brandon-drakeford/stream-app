@@ -20,7 +20,7 @@ In order for the application to start successfully, **JSON and Node Media Server
 2. Open up command line
 3. Navigate to `Stream-App/client` directory
 4. Run `npm install` to make sure local version is up to date
-5. Run `npm start` to launch application
+5. Run `npm start` to launch application on `localhost:3000`
 
 #### Start JSON Server
 1. Open up a new command line
@@ -33,7 +33,10 @@ In order for the application to start successfully, **JSON and Node Media Server
 2. Navigate to `Stream-App/client/rtmpserver` directory
 3. Run `npm start`
 
-## How To Stream Video To Your Channel
+## Create A Stream Channel
+Once the application has rendered, you must login using **Gooogle Sign In** button on the top-right of the page header. Enter in your GMAIL credentials and wait for Google to authenticate your login. When Successful, there will be a **Create Stream** button now visible in the UI. 
+
+# How To Stream Video To Your Channel
 To stream video, you can use download [OBS](https://obsproject.com/) and update your **Stream** settings to the following:
 
 - Server - rtmp://localhost/live 
