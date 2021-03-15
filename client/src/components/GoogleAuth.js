@@ -57,7 +57,7 @@ function GoogleAuth (props) {
         }
     }
  
-    return <div>{renderAuthButton()}</div>
+    return <div style={{ marginTop: '10px' }}>{renderAuthButton()}</div>
 }
 
 const mapStateToProps = (state) => {
